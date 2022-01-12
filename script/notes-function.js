@@ -49,7 +49,7 @@ const generateNoteDOM= (note) =>
       textEl.classList.add("list-item__title")
       noteEl.appendChild(textEl)
 
-      noteEl.setAttribute('href',`/edit.html#${note.id}`)
+      noteEl.setAttribute('href',`./edit.html#${note.id}`)
       noteEl.classList.add('list-item')
 
       statusEl.textContent=generateLastEdited(note.updatedAt)
